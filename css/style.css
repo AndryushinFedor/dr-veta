@@ -23,7 +23,15 @@ li{list-style:none}
    ========================================================================== */
 
 /* ---- base ---- */
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
+@font-face {
+  font-family: "PT Mono";  
+  src: url("/fonts/PTMono-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
+  
 html,body{ 
 	width:100%;
 	height:100%;
@@ -35,7 +43,7 @@ html{
 }
 
 body{
-  font:normal 75% Arial, Helvetica, sans-serif;
+  font-family: 'PT Mono', monospace;
 }
 
 canvas{
@@ -99,7 +107,7 @@ h1 {
   position: absolute;
   text-align: center;
   top: 10vw;
-  right: 30vw;
+  left: 26vw;
   color: aliceblue;
   font-size: 48px;
 
@@ -109,9 +117,77 @@ h1 {
   position: absolute;
   font-size: 30px;
   color: aliceblue;
-  right: 2vw;
+  left: 89vw;
   top: 48vw;
   border-radius: 18px;
   padding: 0.5vw 1vw;
   border: 5px solid aliceblue;
+
+}
+
+@media screen and (max-width: 1440px) {
+  h1 {
+    left: 25vw;
+  }
+
+  .btn {
+    top: 56vw;
+    left: 86vw;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    left: 22vw;
+  }
+
+  .btn {
+    top: 48vw;
+    left: 86vw;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    left: 0vw;
+  }
+
+  .btn {
+    top: 122vw;
+    left: 80vw;
+  }
+
+  #particles-js{
+    width: 100%;
+    height: 100%;
+    background-color: #2a0ac9;
+    background-image: url(http://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif);
+    background-size: 140%;
+    background-position: 180% 50%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    left: 0vw;
+    top: 30vw;
+    font-size: 36px;
+  }
+
+  .btn {
+    top: 178vw;
+    left: 36vw;
+    padding: 1vw 1.5vw;
+  }
+
+  #particles-js{
+    width: 100%;
+    height: 100%;
+    background-color: #2a0ac9;
+    background-image: url(http://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif);
+    background-size: 180%;
+    background-position: 130% 50%;
+    background-repeat: no-repeat;
+  }
 }
