@@ -253,17 +253,6 @@ h1 {
     top: 48vw;
     left: 86vw;
   }
-}
-
-@media screen and (max-width: 1280px) {
-  h1 {
-    left: 0vw;
-  }
-
-  .btn {
-    top: 122vw;
-    left: 80vw;
-  }
 
   #particles-js{
     width: 100%;
