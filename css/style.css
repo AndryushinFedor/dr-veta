@@ -118,7 +118,7 @@ h1 {
   position: absolute;
   font-size: 30px;
   color: aliceblue;
-  left: 89vw;
+  left: 89vh;
   top: 44vw;
   border-radius: 18px;
   padding: 0.5vw 1vw;
@@ -239,7 +239,7 @@ h1 {
   }
 
   .btn {
-    top: 56vw;
+    top: 56vh;
     left: 86vw;
   }
 }
@@ -250,7 +250,7 @@ h1 {
   }
 
   .btn {
-    top: 48vw;
+    top: 48vh;
     left: 86vw;
   }
 
@@ -268,7 +268,7 @@ h1 {
 @media screen and (max-width: 414px) {
   h1 {
     left: 0vw;
-    top: 30vw;
+    top: 30vh;
     font-size: 36px;
   }
 
